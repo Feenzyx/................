@@ -120,3 +120,4 @@ end
 script.Parent["lay-out"].close.MouseButton1Click:Connect(function()
 	source.PlayerGui["fx-cardealer"].Enabled = false
 end)
+print("lol")
