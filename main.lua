@@ -4,6 +4,12 @@ local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
 local keys = "lol"
 
+if config.Key == keys then
+	print("Valid Key")
+else
+	print("Invalid Key")
+end
+
 
 game.Workspace.Cardealer.ProximityPrompt.Triggered:Connect(function(plr)
 	plr.PlayerGui["fx-cardealer"].Enabled = true
