@@ -2,7 +2,7 @@ local config = require(script.Parent.Config)
 local economie = config.GeldSysteem
 local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
-local keys = "lol"
+local keys = "lol" or "lolll"
 
 wait(8)
 
