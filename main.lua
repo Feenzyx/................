@@ -4,6 +4,8 @@ local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
 local keys = "lol"
 
+wait(8)
+
 if config.Key == keys then
 	print("Valid Key")
 else
