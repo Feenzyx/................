@@ -2,7 +2,7 @@ local config = require(script.Parent.Config)
 local economie = config.GeldSysteem
 local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
-local key = "FX_CARDEALER_YSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
+local key = "FX_CARDEALER_RSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
 local ValidKeys = "FX_CARDEALER_YSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
 local GameID = key:split("_")
 
