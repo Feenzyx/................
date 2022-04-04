@@ -2,12 +2,11 @@ local config = require(script.Parent.Config)
 local economie = config.GeldSysteem
 local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
-local key = "FX_CARDEALER_RSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
 local ValidKeys = "FX_CARDEALER_YSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
 local GameID = key:split("_")
 
 game.Players.PlayerAdded:Connect(function(xPlayer)
-	if key == ValidKeys then
+	if config.Key == ValidKeys then
 		print("FX_CARDEALER: Deze license key is geldig, GameID aan het checken...")
 			
 		if game.GameId == GameID[7] then
