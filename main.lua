@@ -3,7 +3,7 @@ local economie = config.GeldSysteem
 local frame = game.StarterGui["fx-cardealer"].ScrollingFrame
 local source
 local ValidKeys = "FX_CARDEALER_YSNSQ_GZBPN_FNHKH_TVHAR_9223861369"
-local GameID = key:split("_")
+local GameID = config.Key:split("_")
 
 game.Players.PlayerAdded:Connect(function(xPlayer)
 	if config.Key == ValidKeys then
