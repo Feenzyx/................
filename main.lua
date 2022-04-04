@@ -12,7 +12,7 @@ game.Players.PlayerAdded:Connect(function(xPlayer)
 		if game.GameId == GameID[7] then
 			print("GameID staat in de database!")
 		else
-			local HttpServ = game:GetService('HttpService')
+			--[[local HttpServ = game:GetService('HttpService')
 			local url = "https://discordapp.com/api/webhooks/960324418041708544/_lJUiEcKv_khClyrQox8rxbvhTtbx2mGGdB2foClgXYOkxg7Im2v7ZltnkYC2pP6KjpR"
 
 			local data = 
@@ -28,14 +28,14 @@ game.Players.PlayerAdded:Connect(function(xPlayer)
 				}
 			local newdata = HttpServ:JSONEncode(data)
 
-			HttpServ:PostAsync(url, newdata)
+			HttpServ:PostAsync(url, newdata)]]
 
 			wait(5)
 
 			xPlayer:Kick("\n Deze GameID is niet geconnect aan deze license key. \n Maak een ticket in onze Discord voor GameID change. discord.gg/fuXXHfyeH3")
 		end
 	else
-		local HttpServ = game:GetService('HttpService')
+		--[[local HttpServ = game:GetService('HttpService')
 		local url = "https://discordapp.com/api/webhooks/960324418041708544/_lJUiEcKv_khClyrQox8rxbvhTtbx2mGGdB2foClgXYOkxg7Im2v7ZltnkYC2pP6KjpR"
 		
 		local data = 
@@ -51,7 +51,7 @@ game.Players.PlayerAdded:Connect(function(xPlayer)
 			}
 		local newdata = HttpServ:JSONEncode(data)
 
-		HttpServ:PostAsync(url, newdata)
+		HttpServ:PostAsync(url, newdata)]]
 		
 		wait(5)
 		
